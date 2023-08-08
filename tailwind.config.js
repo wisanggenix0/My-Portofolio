@@ -8,10 +8,10 @@ export default {
     },
     extend: {
       colors: {
-        "primary": "#ffffff",
-        "secondary": "#292929",
-        "secondary-light": "#cccccc",
-        "accent": "#ffa31a",
+        "primary": "#ffa31a",
+        "secondary": "#cccccc",
+        "background": "#292929",
+        "accent": "#ffffff",
       },
       screens: {
         '2xl': '1320px'

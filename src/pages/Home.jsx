@@ -22,9 +22,9 @@ function Home() {
         <div className="container">
           <div className="flex flex-wrap justify-evenly">
             
-            <HomeLeft/>
+            <HomeLeft />
             <HomeRight/>
-            
+
           </div>
         </div>
       </section>
