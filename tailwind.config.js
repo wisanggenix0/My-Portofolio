@@ -15,6 +15,18 @@ export default {
       },
       screens: {
         '2xl': '1320px'
+      }, 
+       scale: {
+        '110': '1.1',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 2s ease-in-out infinite'
       }
     },
   },
