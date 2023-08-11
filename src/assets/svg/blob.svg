@@ -4,11 +4,4 @@
               stroke="none"
               fill="#808080"
             ></path>
-            <path
-              d="M61,69Q28,88,27,48Q26,8,60,29Q94,50,61,69Z"
-              transform="translate(6.3 -6.88)"
-              stroke="#292929"
-              stroke-width="1"
-              fill="none"
-            ></path>
 </svg>

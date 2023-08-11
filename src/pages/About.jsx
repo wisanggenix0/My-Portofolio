@@ -4,7 +4,7 @@ import { SiFacebook, SiInstagram, SiGithub, SiLinkedin, SiTiktok } from "react-i
 function About() {
   return (
     <>
-      <section className="pt-36 pb-32" id="about">
+      <section className="pt-48 pb-32" id="about">
         <div className="container">
           <div className="flex flex-wrap lg:items-center">
             <div className="w-full px-4 mb-10 lg:w-1/2">
