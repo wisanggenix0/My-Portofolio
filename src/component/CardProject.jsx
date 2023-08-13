@@ -17,8 +17,6 @@ function CardProject({ imgSrc, title, icon }) {
     toggle === true ? setTranslate("-translate-x-[1000px]") : setTranslate("");
   }
 
-
-  console.log(icon)
   return (
     <div className="p-4 md:w-1/3 shadow-inner shadow-secondary rounded backdrop-blur relative overflow-hidden hover:scale-105 transition ease-in-out duration-300 delay-100">
       <img
@@ -33,7 +31,7 @@ function CardProject({ imgSrc, title, icon }) {
         assumenda?
       </p>
       <button
-        className="px-6 py-2 bg-primary mt-2 rounded-full hover:bg-secondary hover:shadow hover:shadow-primary hover:text-background"
+        className="px-6 py-2 bg-primary mt-2 rounded-full hover:bg-secondary hover:shadow hover:shadow-primary hover:text-background transition ease-in-out duration-300"
         onClick={() => showDetail()}
       >
         Detail
@@ -55,12 +53,13 @@ function CardProject({ imgSrc, title, icon }) {
           </h4>
           <div className="h-4/5 w-full flex flex-wrap justify-center gap-2">
             {icons.map((icon, index) => (
-              <div key={index}>{icon}</div>
+              <span key={index}>{icon}</span>
             ))}
           </div>
 
           <a
             href="#"
+            target="_blank"
             className="text-base hover:text-primary hover:underline transition ease-in-out duration-300 delay-100 flex justify-center items-center gap-2"
           >
             <p className="font-medium">See this Project</p>

@@ -3,6 +3,8 @@ import About from "./pages/About";
 import Navbar from "./component/Navbar";
 import MySkills from "./pages/MySkills";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 function App() {
       
@@ -14,6 +16,8 @@ function App() {
       <About/>
       <MySkills/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

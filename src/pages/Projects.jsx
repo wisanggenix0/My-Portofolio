@@ -46,7 +46,7 @@ function Projects() {
 
   return (
     <>
-      <section className="pt-36 pb-32" id="skills">
+      <section className="pt-36 pb-32" id="projects">
         <div className="container">
           <div className="flex flex-col items-center justify-center">
             <div className="mb-10 lg:w-1/2 lg:text-center">
