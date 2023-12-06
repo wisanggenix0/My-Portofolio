@@ -1,18 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable no-unused-vars */
 
-import Aos from "aos";
-import "aos/dist/aos.css"; 
+
 import HomeLeft from "../component/HomeLeft";
 import HomeRight from "../component/HomeRight";
 
 
 
 
-
-function Home() {
-  //AOS
-  Aos.init();
+function Home(dataAOS) {
+  console.log(dataAOS)
 
  
 
@@ -22,7 +19,7 @@ function Home() {
         <div className="container">
           <div className="flex flex-wrap justify-evenly">
             
-            <HomeLeft />
+            <HomeLeft/>
             <HomeRight/>
 
           </div>

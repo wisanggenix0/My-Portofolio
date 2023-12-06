@@ -6,18 +6,18 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 
+
 function App() {
-      
+
   return (
     <>
-    
-      <Navbar/>
-      <Home/>
-      <About/>
-      <MySkills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Home />
+      <About />
+      <MySkills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
